@@ -8,6 +8,6 @@ def intro(request):
         'skill' : ['java', 'python','spring boot'],
         'mail' : '1234@naver.com'
     }
-    return render(request, 'about/about.html', context)
+    return render(request, 'about/intro.html', context)
 
 
